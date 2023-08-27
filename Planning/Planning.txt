@@ -1,0 +1,55 @@
+Step 1 : Break Down Views and Components
+
+Login Page:
+App - The Overall Container for this Project
+Login Page - Display the form for user to Log in
+
+Dashboard :
+App - The Overall Container for this Project
+Navigation - Display the Navigation
+Question Container - Display a list of question
+New Question - Display the form for New Question
+Done Question - Display the form for Done Question
+
+Poll Page:
+App - The Overall Container for this Project
+Navigation - Display the Navigation
+Poll - Display the form for user to Poll
+
+New Poll Page:
+App - The Overall Container for this Project
+Navigation - Display the Navigation
+New Poll - Display the form for user to create new Poll
+
+Leaderboard:
+App - The Overall Container for this Project
+Navigation - Display the Navigation
+Leaderboard - Display the form for Leaderboard
+
+All Components:
+App - The Overall Container for this Project
+Login Page - Display the form for user to Log in
+Navigation - Display the Navigation
+Question Container - Display a list of question
+New Question - Display the form for New Question
+Done Question - Display the form for Done Question
+Poll - Display the form for user to Poll
+New Poll - Display the form for user to create new Poll
+Leaderboard - Display the form for Leaderboard
+
+Step 2 - Determine Event
+Login:
+1. Get the Login Credential
+Dashboard:
+1. Get the Question (RECEIVE_QUESTIONS)
+2. Get authedUser
+Poll Page:
+1. Get Question
+2. Get authedUser
+3. Set the Result
+New Poll Page:
+1. Get authedUser
+2. Sert the Question
+Leaderboard:
+1. Get Users
+
